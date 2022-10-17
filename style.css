@@ -20,6 +20,63 @@
 
 .choix{
     width: 50%;
-    height: 100vh;
+    height: 100vh;    
     background-color: aqua;
 }
+
+h2{
+    text-align: center;
+    background-color: grey;
+    margin: 10px 0 10px 0;
+}
+
+.troiscouleurs{
+    display: flex;
+    justify-content: center;
+}
+
+.couleur1{
+    border: 10px solid yellow;
+    border-radius: 100%;
+}
+
+.couleur2{
+    border: 10px solid rgb(247, 153, 14);
+    border-radius: 100%;
+}
+
+.couleur3{
+    border: 10px solid rgb(196, 32, 196);
+    border-radius: 100%;
+}
+
+.couleur4{
+    border: 10px solid rgb(50, 34, 187);
+    border-radius: 100%;
+}
+
+.couleur5{
+    border: 10px solid rgb(32, 196, 54);
+    border-radius: 100%;
+}
+
+.cinqcouleurs{
+    display: flex;
+    justify-content: center;
+}
+
+.radio{
+    display: flex;
+    justify-content: center;
+}
+
+/* textarea{
+    display: flex;
+    justify-content: center;
+    text-align: left;
+} */
+
+/* #name{
+    display: flex;
+    justify-content: center;
+} */
