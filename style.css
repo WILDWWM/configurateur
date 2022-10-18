@@ -46,8 +46,11 @@ h2{
 }
 
 .couleur3{
-    border: 10px solid rgb(196, 32, 196);
-    border-radius: 100%;
+    background-color: red;
+    border: 2px solid black;
+    width:20px;
+    height:20px;
+    border-radius: 50%;
 }
 
 .couleur4{
@@ -62,7 +65,12 @@ h2{
 
 .cinqcouleurs{
     display: flex;
-    justify-content: center;
+    justify-content: center;    
+}
+
+.borderselect{
+    border: 2px solid black;
+    /* border-radius: 10px; */
 }
 
 .radio{
