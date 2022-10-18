@@ -11,6 +11,7 @@
 
 .manequin{
     width: 50%;    
+    position: relative;
 }
 
 .choix{
@@ -23,11 +24,6 @@ h2{
     text-align: center;
     background-color: grey;
     margin: 10px 0 10px 0;
-}
-
-.troiscouleurs{
-    display: flex;
-    justify-content: center;
 }
 
 .couleur1{
@@ -58,14 +54,23 @@ h2{
     border-radius: 100%;
 }
 
-.cinqcouleurs{
+.couleur6{
+    border: 10px solid rgb(18, 115, 153);
+    border-radius: 100%;
+}
+
+.couleur7{
+    border: 10px solid rgb(170, 13, 118);
+    border-radius: 100%;
+}
+
+.couleurs{
     display: flex;
     justify-content: center;    
 }
 
 .borderselect{
-    border: 2px solid black;
-    /* border-radius: 10px; */
+    border: 2px solid black;   
 }
 
 .radio{
@@ -73,39 +78,39 @@ h2{
     justify-content: center;
 }
 
-/* textarea{
-    display: flex;
-    justify-content: center;
-    text-align: left;
-} */
-
-/* #name{
-    display: flex;
-    justify-content: center;
-} */
-
 .couche1{ 
-    display: none;
-    height: 100vh;   
+    position: absolute;    
+    width: 630px;
+    height: 945px;   
     background-image: url("./images/chasuble.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
+    z-index: 3;
 }
 
 .couche2{ 
-    display: none;
-    height: 100vh;   
+    position: absolute;    
+    width: 630px;
+    height: 945px;   
     background-image: url("./images/option-1-orange.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
+    z-index: 2;
 }
 
 .couche3{ 
-    height: 100vh;   
+    position: absolute;
+    width: 630px;
+    height: 945px;   
     background-image: url("./images/option-2-rouge.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
+    z-index: 3;
+}
+
+textarea {
+    resize: none;
 }
