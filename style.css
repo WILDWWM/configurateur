@@ -10,12 +10,7 @@
 }
 
 .manequin{
-    width: 50%;
-    height: 100vh;
-    background-image: url("./images/chasuble.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain;
+    width: 50%;    
 }
 
 .choix{
@@ -88,3 +83,29 @@ h2{
     display: flex;
     justify-content: center;
 } */
+
+.couche1{ 
+    display: none;
+    height: 100vh;   
+    background-image: url("./images/chasuble.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.couche2{ 
+    display: none;
+    height: 100vh;   
+    background-image: url("./images/option-1-orange.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.couche3{ 
+    height: 100vh;   
+    background-image: url("./images/option-2-rouge.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
